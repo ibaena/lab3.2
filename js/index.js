@@ -1,21 +1,19 @@
-
 /*function whatAmI () {
-	var firstValue = prompt ("Type a number, letter or word please...");
-	firstValue = parseInt(firstValue);
-	if (isNaN(firstValue)) {
-		document.write("This is a string");
+  var firstValue = prompt ("Type a number, letter or word please...");
+   firstValue = parseInt(firstValue);
+  if (isNaN(firstValue)) {
+    document.write("This is a string");
 
-	}
-	else {
-		document.write("this is a number");
-	}
+  }
+  else {
+    document.write("this is a number");
+  }
 
-	
+  
 }
 
 whatAmI();*/
-
-function whichIsBigger() {
+/*function whichIsBigger() {
 
   var num1 = prompt ("Type the first number");
   var num2 = prompt ("Type the second number");
@@ -35,7 +33,7 @@ function whichIsBigger() {
 
    else if ((num1)===(num2)) {
 
-    document.write(num1 +" " + num2 + " Both are equal");
+    document.write(num1 +", " + num2 + " Both are equal");
   }
 
  else {
@@ -44,4 +42,24 @@ function whichIsBigger() {
   }
 }
 
-whichIsBigger();
+whichIsBigger();*/
+
+function addString() {
+  var stringN;
+  while (isNaN(stringN)) {
+    stringN = prompt("Enter a word or letter please...");
+    if (!isNaN(stringN)) {
+      break;
+
+
+    };
+
+    document.write(" " + stringN);
+
+
+  }
+document.getElementById("demo").innerHTML = res;
+}
+
+addString();
+
